@@ -47,7 +47,7 @@ console.log(tags)
 ```
 
 
-You make tags case-insensitive:
+You can make tags case-insensitive:
 
 ```JavaScript
 var uncase = tagx({case:false})
@@ -69,11 +69,10 @@ console.log(tags)
 ```
 
 
-You can define negative tags (prefix with !) that cancel out positive tags:
+You can define negative tags (prefix with <code>!</code>) that cancel out positive tags:
 
 ```JavaScript
 tags = tagx("a  b !b  !c c")
-console.log(tags)
 
 // prints [ 'a' ]
 console.log(tags)
@@ -88,18 +87,20 @@ var expand = tagx({expand:{ foo:'a b c !d', u:'v', v:'u' }})
 tags = expand("foo !c d e f u")
 
 // prints [ 'a', 'b', 'e', 'f', 'u' ]
+// foo -> a,b as !c and d cancel c !d
+// u -> v -> u and stops
 console.log(tags)
 ```
 
 
 
-
+<!--
 ## Example
 
 The [seneca-data-editor](http://github.com/rjrodger/seneca-data-editor)
-module uses tags to customize a user interface for different classes
+module uses tags combinations to customize a user interface for different classes
 of user.
-
+-->
 
 
 ## Test
