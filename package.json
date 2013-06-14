@@ -19,7 +19,11 @@
   "author": "Richard Rodger (http://richardrodger.com)",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "13be58901ec1b34e60b1868e3ed39b5362ded98e",
+  "files": [
+    "LICENSE.txt",
+    "README.md",
+    "tagx.js"
+  ],
   "dependencies": {
     "underscore": "~1.4.4"
   }
