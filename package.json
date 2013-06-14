@@ -1,0 +1,26 @@
+{
+  "name": "tagx",
+  "version": "0.1.0",
+  "description": "Tag utility module",
+  "main": "tagx.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rjrodger/tagx.git"
+  },
+  "keywords": [
+    "tag",
+    "util",
+    "utility",
+    "meta"
+  ],
+  "author": "Richard Rodger (http://richardrodger.com)",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "13be58901ec1b34e60b1868e3ed39b5362ded98e",
+  "dependencies": {
+    "underscore": "~1.4.4"
+  }
+}
