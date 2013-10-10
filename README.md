@@ -15,9 +15,14 @@ For example:
 If you're using this module, feel free to contact me on twitter if you
 have any questions! :) [@rjrodger](http://twitter.com/rjrodger)
 
+This module works on both Node.js and browsers.
+
+
 Current Version: 0.1.0
 
-Tested on: node 0.10.6
+Tested on: Node.js 0.10.19, Chrome 29, Firefox 23, Safari 5.1, Opera 12.11
+
+[![Build Status](https://travis-ci.org/rjrodger/tagx.png?branch=master)](https://travis-ci.org/rjrodger/tagx)
 
 
 
@@ -100,12 +105,21 @@ console.log(tags)
 The [seneca-data-editor](http://github.com/rjrodger/seneca-data-editor)
 module uses tags combinations to customize a user interface for different classes
 of user.
--->
+-->     
 
 
-## Test
 
-```sh
-cd test
-mocha tagx.test.js
+
+# Development
+
+You'll need:
+
+```bash
+sudo npm install phantomjs@1.9.1-0 uglify-js -g
+```
+
+Test with:
+
+```bash
+npm test
 ```

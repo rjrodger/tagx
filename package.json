@@ -4,7 +4,9 @@
   "description": "Tag utility module",
   "main": "tagx.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/jasmine-node ./test",
+    "browser": "phantomjs test/run-jasmine.js test/jasmine.html",
+    "build": "uglifyjs tagx.js -c \"evaluate=false\" --comments \"/ Copyright .*/\" -m --source-map tagx-min.map -o tagx-min.js"
   },
   "repository": {
     "type": "git",
@@ -17,14 +19,19 @@
     "meta"
   ],
   "author": "Richard Rodger (http://richardrodger.com)",
+  "homepage": "https://github.com/rjrodger/tagx",
   "license": "MIT",
-  "readmeFilename": "README.md",
   "files": [
     "LICENSE.txt",
     "README.md",
-    "tagx.js"
+    "tagx.js",
+    "tagx-min.js",
+    "tagx-min.map"
   ],
   "dependencies": {
-    "underscore": "~1.4.4"
+    "underscore": "~1.5.2"
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.11.0"
   }
 }
