@@ -1,6 +1,6 @@
 {
   "name": "tagx",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tag utility module",
   "main": "tagx.js",
   "scripts": {

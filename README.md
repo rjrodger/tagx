@@ -18,7 +18,7 @@ have any questions! :) [@rjrodger](http://twitter.com/rjrodger)
 This module works on both Node.js and browsers.
 
 
-Current Version: 0.1.0
+Current Version: 0.1.1
 
 Tested on: Node.js 0.10.19, Chrome 29, Firefox 23, Safari 5.1, Opera 12.11
 
