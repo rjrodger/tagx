@@ -1,6 +1,6 @@
 {
   "name": "tagx",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Tag utility module",
   "main": "tagx.js",
   "scripts": {
@@ -29,7 +29,7 @@
     "tagx-min.map"
   ],
   "dependencies": {
-    "underscore": "~1.5.2"
+    "underscore": "~1.6.0"
   },
   "devDependencies": {
     "jasmine-node": "~1.11.0"
