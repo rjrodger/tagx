@@ -4,8 +4,8 @@
   "description": "Tag utility module",
   "main": "tagx.js",
   "scripts": {
-    "test": "lab",
-    "browser": "phantomjs test/run-jasmine.js test/jasmine.html",
+    "test": "lab -P spec",
+    "browser": "phantomjs test/run-jasmine.js test/jasmine.html # TO BE CHANGED",
     "build": "uglifyjs tagx.js -c \"evaluate=false\" --comments \"/ Copyright .*/\" -m --source-map tagx-min.map -o tagx-min.js"
   },
   "repository": {
@@ -29,7 +29,7 @@
     "tagx-min.map"
   ],
   "dependencies": {
-    "underscore": "~1.6.0"
+    "lodash": "^3.10.1"
   },
   "devDependencies": {
     "code": "^1.5.0",

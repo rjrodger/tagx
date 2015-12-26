@@ -13,9 +13,9 @@
 
   if( typeof _ === 'undefined' ) {
     if( has_require ) {
-      _ = require('underscore')
+      _ = require('lodash')
     }
-    else throw new Error('tagx requires underscore, see http://underscorejs.org');
+    else throw new Error('tagx requires lodash, see http://lodash.com');
   }
 
 
