@@ -29,6 +29,9 @@
     "tagx-min.js",
     "tagx-min.map"
   ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "dependencies": {
     "lodash": "^3.10.1"
   },
