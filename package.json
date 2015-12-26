@@ -4,7 +4,7 @@
   "description": "Tag utility module",
   "main": "tagx.js",
   "scripts": {
-    "test": "./node_modules/.bin/jasmine-node ./test",
+    "test": "lab",
     "browser": "phantomjs test/run-jasmine.js test/jasmine.html",
     "build": "uglifyjs tagx.js -c \"evaluate=false\" --comments \"/ Copyright .*/\" -m --source-map tagx-min.map -o tagx-min.js"
   },
@@ -32,6 +32,7 @@
     "underscore": "~1.6.0"
   },
   "devDependencies": {
-    "jasmine-node": "~1.11.0"
+    "code": "^1.5.0",
+    "lab": "^6.2.0"
   }
 }
