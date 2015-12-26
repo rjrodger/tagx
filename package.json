@@ -35,6 +35,7 @@
   "devDependencies": {
     "code": "^1.5.0",
     "coveralls": "^2.11.6",
-    "lab": "^6.2.0"
+    "lab": "^6.2.0",
+    "uglify-js": "^2.6.1"
   }
 }
