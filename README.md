@@ -1,5 +1,10 @@
 # tagx
 
+[![npm version][npm-badge]][npm-url]
+[![Build Status][travis-badge]][travis-url]
+[![Coverage Status][coveralls-badge]][coveralls-url]
+[![Dependency Status][david-badge]][david-url]
+
 ## A tag composer module for Node.js
 
 This module lets you build a set of tags by combining and expanding existing lists of tags. Tags are character strings that don't contain any punctuation or spaces. The tags are parsed out of a comma or space separated line of text, and duplicates are removed. 
@@ -20,10 +25,7 @@ This module works on both Node.js and browsers.
 
 Current Version: 0.1.2
 
-Tested on: Node.js 0.10.29, Chrome 29, Firefox 23, Safari 5.1, Opera 12.11
-
-[![Build Status](https://travis-ci.org/rjrodger/tagx.png?branch=master)](https://travis-ci.org/rjrodger/tagx)
-
+Tested on: Node.js 0.10.29, 4, 5 , Chrome 29, Firefox 23, Safari 5.1, Opera 12.11
 
 
 ## Quick examples
@@ -123,3 +125,12 @@ Test with:
 ```bash
 npm test
 ```
+
+[npm-badge]: https://badge.fury.io/js/tagx.svg
+[npm-url]: https://badge.fury.io/js/tagx
+[travis-badge]: https://api.travis-ci.org/rjrodger/tagx.svg
+[travis-url]: https://travis-ci.org/rjrodger/tagx
+[coveralls-badge]:https://coveralls.io/repos/rjrodger/tagx/badge.svg?branch=master&service=github
+[coveralls-url]: https://coveralls.io/github/rjrodger/tagx?branch=master
+[david-badge]: https://david-dm.org/rjrodger/tagx.svg
+[david-url]: https://david-dm.org/rjrodger/tagx
